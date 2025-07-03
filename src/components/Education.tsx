@@ -19,7 +19,7 @@ const Education = () => {
     },
     {
       degree: "Intermediate  (FSc)",
-      institution: "Government Higher Secondary School Garhi Habibullah",
+      institution: "Abbottabad Board",
       period: "2020 - 2021",
       status: "Completed",
       description: "Foundation in computer science fundamentals including programming basics, mathematics, and scientific methodology.",
@@ -36,7 +36,7 @@ const Education = () => {
     },
     {
       degree: "Matriculation (Secondary School)",
-      institution: "Shaheed High School Garhi Habibullah",
+      institution: "Abbottabad Board",
       period: "2015 - 2017",
       status: "Completed",
       description: "Secondary education with focus on science subjects and foundational knowledge across multiple disciplines.",

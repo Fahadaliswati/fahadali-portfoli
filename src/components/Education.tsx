@@ -37,7 +37,7 @@ const Education = () => {
     {
       degree: "Matriculation (Secondary School)",
       institution: "Abbottabad Board",
-      period: "2015 - 2017",
+      period: "2017 - 2019",
       status: "Completed",
       description: "Secondary education with focus on science subjects and foundational knowledge across multiple disciplines.",
       highlights: [

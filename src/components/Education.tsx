@@ -4,7 +4,7 @@ const Education = () => {
       degree: "Bachelor of Science in Software Engineering",
       institution: "Virtual University of Pakistan",
       period: "2023 - 2027",
-      status: "Completed",
+      status: "Inprogress",
       description: "Comprehensive study of software development principles, algorithms, data structures, and modern programming practices.",
       highlights: [
         "Software Development Life Cycle",

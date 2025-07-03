@@ -18,9 +18,9 @@ const Education = () => {
       type: "bachelor"
     },
     {
-      degree: "Intermediate in Computer Science (FSc)",
+      degree: "Intermediate  (FSc)",
       institution: "College",
-      period: "2017 - 2019",
+      period: "2020 - 2021",
       status: "Completed",
       description: "Foundation in computer science fundamentals including programming basics, mathematics, and scientific methodology.",
       highlights: [
@@ -110,16 +110,16 @@ const Education = () => {
         {/* Education Timeline */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold text-foreground text-center mb-12">Academic Timeline</h3>
-          
+
           <div className="relative">
             {/* Timeline line */}
             <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-0.5 h-full bg-gradient-to-b from-primary via-accent to-tech"></div>
-            
+
             {educationData.map((edu, index) => (
               <div key={index} className="relative mb-12">
                 {/* Timeline dot */}
                 <div className="absolute left-2 md:left-1/2 transform md:-translate-x-1/2 w-4 h-4 bg-primary rounded-full shadow-glow border-4 border-background"></div>
-                
+
                 <div className={`ml-12 md:ml-0 ${index % 2 === 0 ? 'md:grid md:grid-cols-2 md:gap-8' : 'md:grid md:grid-cols-2 md:gap-8'}`}>
                   <div className={`${index % 2 === 0 ? 'md:text-right' : 'md:order-2'} mb-6 md:mb-0`}>
                     <div className="card-gradient rounded-2xl p-6 shadow-soft hover:shadow-hover transition-smooth">
@@ -140,7 +140,7 @@ const Education = () => {
                   <div className={`${index % 2 === 0 ? 'md:ml-8' : 'md:mr-8 md:order-1'}`}>
                     <div className="card-gradient rounded-2xl p-6 shadow-soft">
                       <p className="text-muted-foreground mb-4 leading-relaxed">{edu.description}</p>
-                      
+
                       <div className="mb-4">
                         <h4 className="text-lg font-semibold text-foreground mb-3">Key Subjects & Skills:</h4>
                         <div className="grid grid-cols-1 gap-2">
@@ -170,7 +170,7 @@ const Education = () => {
         {/* Certifications */}
         <div className="mt-16">
           <h3 className="text-2xl font-bold text-foreground text-center mb-12">Professional Certifications</h3>
-          
+
           <div className="grid md:grid-cols-3 gap-6">
             {certifications.map((cert, index) => (
               <div
@@ -208,7 +208,7 @@ const Education = () => {
           <div className="card-gradient rounded-2xl p-8 shadow-soft max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-foreground mb-4">Continuous Learning</h3>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              Education is a lifelong journey. I believe in staying updated with the latest technologies, 
+              Education is a lifelong journey. I believe in staying updated with the latest technologies,
               best practices, and industry trends to deliver exceptional results and grow professionally.
             </p>
             <div className="flex items-center justify-center space-x-4">

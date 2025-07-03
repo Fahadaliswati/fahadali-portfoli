@@ -3,7 +3,7 @@ const Education = () => {
     {
       degree: "Bachelor of Science in Software Engineering",
       institution: "University",
-      period: "2019 - 2023",
+      period: "2023 - 2027",
       status: "Completed",
       description: "Comprehensive study of software development principles, algorithms, data structures, and modern programming practices.",
       highlights: [

@@ -2,7 +2,7 @@ const Education = () => {
   const educationData = [
     {
       degree: "Bachelor of Science in Software Engineering",
-      institution: "University",
+      institution: "Virtual University of Pakistan",
       period: "2023 - 2027",
       status: "Completed",
       description: "Comprehensive study of software development principles, algorithms, data structures, and modern programming practices.",
@@ -19,7 +19,7 @@ const Education = () => {
     },
     {
       degree: "Intermediate  (FSc)",
-      institution: "College",
+      institution: "Government Higher Secondary School Garhi Habibullah",
       period: "2020 - 2021",
       status: "Completed",
       description: "Foundation in computer science fundamentals including programming basics, mathematics, and scientific methodology.",
@@ -36,7 +36,7 @@ const Education = () => {
     },
     {
       degree: "Matriculation (Secondary School)",
-      institution: "High School",
+      institution: "Shaheed High School Garhi Habibullah",
       period: "2015 - 2017",
       status: "Completed",
       description: "Secondary education with focus on science subjects and foundational knowledge across multiple disciplines.",

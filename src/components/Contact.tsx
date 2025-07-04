@@ -33,12 +33,7 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    {
-      icon: '📧',
-      label: 'Email',
-      value: 'fahadali.hk0009@gmail.com',
-      link: 'mailto:fahadali.hk@gmail.com'
-    },
+
     {
       icon: '💼',
       label: 'LinkedIn',

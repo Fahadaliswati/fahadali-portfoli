@@ -2,9 +2,9 @@ const Education = () => {
   const educationData = [
     {
       degree: "Bachelor of Science in Software Engineering",
-      institution: "University",
-      period: "2019 - 2023",
-      status: "Completed",
+      institution: "Virtual University of Pakistan",
+      period: "2023 - 2027",
+      status: "Inprogress",
       description: "Comprehensive study of software development principles, algorithms, data structures, and modern programming practices.",
       highlights: [
         "Software Development Life Cycle",
@@ -18,9 +18,9 @@ const Education = () => {
       type: "bachelor"
     },
     {
-      degree: "Intermediate in Computer Science (FSc)",
-      institution: "College",
-      period: "2017 - 2019",
+      degree: "Intermediate  (FSc)",
+      institution: "Abbottabad Board",
+      period: "2020 - 2021",
       status: "Completed",
       description: "Foundation in computer science fundamentals including programming basics, mathematics, and scientific methodology.",
       highlights: [
@@ -32,12 +32,12 @@ const Education = () => {
         "English & Communication"
       ],
       grade: "First Division",
-      type: "intermediate"
+      type: "intermediate "
     },
     {
       degree: "Matriculation (Secondary School)",
-      institution: "High School",
-      period: "2015 - 2017",
+      institution: "Abbottabad Board",
+      period: "2017 - 2019",
       status: "Completed",
       description: "Secondary education with focus on science subjects and foundational knowledge across multiple disciplines.",
       highlights: [

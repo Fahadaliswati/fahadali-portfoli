@@ -51,12 +51,7 @@ const Contact = () => {
       value: 'View my code',
       link: 'https://github.com/Fahadaliswati'
     },
-    {
-      icon: '📱',
-      label: 'Phone',
-      value: 'Available on request',
-      link: '#'
-    }
+
   ];
 
   const quickActions = [

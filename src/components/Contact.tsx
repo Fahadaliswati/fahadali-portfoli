@@ -43,7 +43,7 @@ const Contact = () => {
       icon: '💼',
       label: 'LinkedIn',
       value: 'Connect with me',
-      link: '#'
+      link: 'https://www.linkedin.com/in/fahad-alikhan/'
     },
     {
       icon: '💻',

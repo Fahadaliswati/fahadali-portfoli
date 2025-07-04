@@ -23,15 +23,15 @@ const About = () => {
           <div className="animate-slide-up">
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
-                I'm a passionate Frontend Developer with 1 year of hands-on experience in building 
-                modern web applications. My journey in web development began with a strong foundation 
+                I'm a passionate Frontend Developer with 1.5 years of hands-on experience in building
+                modern web applications. My journey in web development began with a strong foundation
                 in computer science and has evolved into specializing in ReactJS and modern JavaScript frameworks.
               </p>
-              
+
               <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
-                I excel at transforming creative designs into responsive, user-friendly interfaces while 
-                maintaining clean, scalable code. My experience includes working with REST APIs, 
-                implementing state management solutions, and creating reusable component libraries 
+                I excel at transforming creative designs into responsive, user-friendly interfaces while
+                maintaining clean, scalable code. My experience includes working with REST APIs,
+                implementing state management solutions, and creating reusable component libraries
                 that enhance development efficiency.
               </p>
 
@@ -48,8 +48,8 @@ const About = () => {
               </div>
 
               <p className="text-muted-foreground text-lg leading-relaxed">
-                I'm always eager to learn new technologies and take on challenging projects that 
-                push the boundaries of what's possible on the web. Let's work together to bring 
+                I'm always eager to learn new technologies and take on challenging projects that
+                push the boundaries of what's possible on the web. Let's work together to bring
                 your digital vision to life!
               </p>
             </div>
@@ -63,23 +63,23 @@ const About = () => {
                   <div className="text-3xl font-bold text-primary mb-2">1+</div>
                   <div className="text-sm text-muted-foreground uppercase tracking-wide">Years Experience</div>
                 </div>
-                
+
                 <div className="text-center">
                   <div className="text-3xl font-bold text-accent mb-2">10+</div>
                   <div className="text-sm text-muted-foreground uppercase tracking-wide">Projects Completed</div>
                 </div>
-                
+
                 <div className="text-center">
                   <div className="text-3xl font-bold text-tech mb-2">5+</div>
                   <div className="text-sm text-muted-foreground uppercase tracking-wide">Technologies</div>
                 </div>
-                
+
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">100%</div>
                   <div className="text-sm text-muted-foreground uppercase tracking-wide">Client Satisfaction</div>
                 </div>
               </div>
-              
+
               <div className="mt-8 pt-6 border-t border-border">
                 <div className="flex items-center justify-center space-x-4">
                   <div className="w-3 h-3 bg-primary rounded-full animate-pulse"></div>

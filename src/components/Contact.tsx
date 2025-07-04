@@ -6,7 +6,7 @@ const Contact = () => {
     email: '',
     message: ''
   });
-  
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
@@ -20,13 +20,13 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       setSubmitStatus('success');
       setFormData({ name: '', email: '', message: '' });
-      
+
       // Reset status after 3 seconds
       setTimeout(() => setSubmitStatus('idle'), 3000);
     }, 1000);
@@ -37,7 +37,7 @@ const Contact = () => {
       icon: '📧',
       label: 'Email',
       value: 'fahadali.hk@gmail.com',
-      link: 'mailto:fahadali.hk@gmail.com'
+      link: 'fahadali.hk0009@gmail.com'
     },
     {
       icon: '💼',
@@ -98,7 +98,7 @@ const Contact = () => {
           <div className="animate-slide-up">
             <div className="card-gradient rounded-2xl p-8 shadow-soft">
               <h3 className="text-2xl font-bold text-foreground mb-6">Send me a message</h3>
-              
+
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
@@ -178,7 +178,7 @@ const Contact = () => {
               {/* Contact Details */}
               <div className="card-gradient rounded-2xl p-8 shadow-soft">
                 <h3 className="text-2xl font-bold text-foreground mb-6">Get in Touch</h3>
-                
+
                 <div className="space-y-6">
                   {contactInfo.map((info, index) => (
                     <a
@@ -201,7 +201,7 @@ const Contact = () => {
               {/* Quick Actions */}
               <div className="card-gradient rounded-2xl p-8 shadow-soft">
                 <h3 className="text-xl font-bold text-foreground mb-6">Quick Actions</h3>
-                
+
                 <div className="space-y-4">
                   {quickActions.map((action, index) => (
                     <button
@@ -242,7 +242,7 @@ const Contact = () => {
           <div className="card-gradient rounded-2xl p-8 shadow-soft max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold text-foreground mb-4">Ready to Start Your Project?</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Whether you need a new website, want to improve an existing application, or have a unique project in mind, 
+              Whether you need a new website, want to improve an existing application, or have a unique project in mind,
               I'm here to help bring your vision to life with clean, efficient code and modern design.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -51,6 +51,12 @@ const Contact = () => {
       value: 'View my code',
       link: 'https://github.com/Fahadaliswati'
     },
+    {
+      icon: '📱',
+      label: 'Phone / WhatsApp',
+      value: '+92 311 8668902',
+      link: 'https://wa.me/923118668902'
+    }
 
   ];
 

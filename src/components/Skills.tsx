@@ -9,9 +9,10 @@ const Skills = () => {
     {
       title: "Frameworks & Libraries",
       icon: "⚛️",
-      skills: ["ReactJS", "Redux Toolkit", "React Router", "React Hook Form", "Axios"],
+      skills: ["ReactJS", "Redux Toolkit", "React Router", "Material UI (MUI)", "React Hook Form", "Axios"],
       color: "accent"
     },
+
     {
       title: "Styling & Design",
       icon: "🎨",
@@ -96,12 +97,11 @@ const Skills = () => {
                   </span>
                 </div>
                 <div className="mt-2 h-2 bg-muted rounded-full overflow-hidden">
-                  <div 
-                    className={`h-full transition-smooth ${
-                      category.title === "Programming Languages" || category.title === "Frameworks & Libraries" 
-                        ? 'bg-primary w-[90%]' 
-                        : 'bg-accent w-[75%]'
-                    }`}
+                  <div
+                    className={`h-full transition-smooth ${category.title === "Programming Languages" || category.title === "Frameworks & Libraries"
+                      ? 'bg-primary w-[90%]'
+                      : 'bg-accent w-[75%]'
+                      }`}
                   ></div>
                 </div>
               </div>

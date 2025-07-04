@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: `url(${heroImage})`,
@@ -25,13 +25,13 @@ const Hero = () => {
               Fahad Ali
             </span>
           </h1>
-          
+
           <p className="text-xl sm:text-2xl lg:text-3xl text-white/90 mb-8 font-light">
             Frontend Developer | ReactJS Enthusiast
           </p>
-          
+
           <p className="text-lg sm:text-xl text-white/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Creating modern, responsive web applications with clean code and innovative solutions. 
+            Creating modern, responsive web applications with clean code and innovative solutions.
             Specialized in React, JavaScript, and building seamless user experiences.
           </p>
 
@@ -42,7 +42,7 @@ const Hero = () => {
             >
               Get In Touch
             </button>
-            
+
             <button
               onClick={() => document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg transition-smooth hover:bg-white hover:text-primary hover:scale-105"
@@ -53,7 +53,7 @@ const Hero = () => {
         </div>
 
         {/* Floating Animation */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 animate-bounce">
           <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>

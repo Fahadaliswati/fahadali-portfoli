@@ -49,7 +49,7 @@ const Contact = () => {
       icon: '💻',
       label: 'GitHub',
       value: 'View my code',
-      link: '#'
+      link: 'https://github.com/Fahadaliswati'
     },
     {
       icon: '📱',

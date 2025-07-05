@@ -85,7 +85,7 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <span className="text-primary">📧</span>
                 <a
-                  href="mailto:fahadali.hk@gmail.com"
+                  href="mailto:fahadali.hk0009@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-smooth text-sm"
                 >
                   fahadali.hk@gmail.com

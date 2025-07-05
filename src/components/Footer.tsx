@@ -5,7 +5,8 @@ const Footer = () => {
     { name: 'GitHub', icon: '🔗', url: 'https://github.com/Fahadaliswati' },
     { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/fahad-alikhan/' },
     { name: 'Email', icon: '📧', url: 'mailto:fahadali.hk@gmail.com' },
-    { name: 'Twitter', icon: '🐦', url: '#' }
+    { name: 'WhatsApp', icon: '📱', url: 'https://wa.me/923118668902' }
+
   ];
 
   const quickLinks = [

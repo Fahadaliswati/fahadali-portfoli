@@ -2,8 +2,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { name: 'GitHub', icon: '🔗', url: '#' },
-    { name: 'LinkedIn', icon: '💼', url: '#' },
+    { name: 'GitHub', icon: '🔗', url: 'https://github.com/Fahadaliswati' },
+    { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/fahad-alikhan/' },
     { name: 'Email', icon: '📧', url: 'mailto:fahadali.hk@gmail.com' },
     { name: 'Twitter', icon: '🐦', url: '#' }
   ];
@@ -38,9 +38,9 @@ const Footer = () => {
               </h3>
               <p className="text-muted-foreground mt-2">Frontend Developer | ReactJS Enthusiast</p>
             </div>
-            
+
             <p className="text-muted-foreground mb-6 leading-relaxed max-w-md">
-              Passionate about creating modern, responsive web applications with clean code and innovative solutions. 
+              Passionate about creating modern, responsive web applications with clean code and innovative solutions.
               Let's build something amazing together!
             </p>
 
@@ -83,19 +83,19 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <span className="text-primary">📧</span>
-                <a 
+                <a
                   href="mailto:fahadali.hk@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-smooth text-sm"
                 >
                   fahadali.hk@gmail.com
                 </a>
               </div>
-              
+
               <div className="flex items-center space-x-2">
                 <span className="text-primary">📍</span>
                 <span className="text-muted-foreground text-sm">Available Remote</span>
               </div>
-              
+
               <div className="flex items-center space-x-2">
                 <span className="text-primary">💼</span>
                 <span className="text-muted-foreground text-sm">Open to opportunities</span>
@@ -114,7 +114,7 @@ const Footer = () => {
 
           <div className="flex items-center space-x-6">
             <span className="text-muted-foreground text-sm">Built with React + Vite</span>
-            
+
             <button
               onClick={scrollToTop}
               className="w-10 h-10 bg-primary text-primary-foreground rounded-lg flex items-center justify-center hover:shadow-glow transition-smooth hover:scale-110"

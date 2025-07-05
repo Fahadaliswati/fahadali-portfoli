@@ -88,7 +88,7 @@ const Footer = () => {
                   href="mailto:fahadali.hk0009@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-smooth text-sm"
                 >
-                  fahadali.hk@gmail.com
+                  fahadali.hk0009@gmail.com
                 </a>
               </div>
 

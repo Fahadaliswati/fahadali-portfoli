@@ -1,3 +1,4 @@
+import cgBackoffice from "../assets/cg-backoffice.png";
 const Projects = () => {
   const projects = [
     {
@@ -5,7 +6,7 @@ const Projects = () => {
       category: "Enterprise Software",
       description: "A comprehensive Enterprise Resource Planning application built with modern React architecture, featuring secure authentication, state management, and dynamic form handling.",
       image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80",
-      technologies: ["ReactJS", "Redux Toolkit", "JWT Authentication", "Axios", "React Hook Form", "CSS3"],
+      technologies: ["ReactJS", "Redux Toolkit", "JWT Authentication", "Axios", "React Hook Form", "SCSS"],
       features: [
         "JWT-based authentication system",
         "Redux Toolkit for state management",
@@ -47,28 +48,40 @@ const Projects = () => {
       codeLink: "#"
     },
     {
-      title: "E-commerce Dashboard",
-      category: "Web Application",
-      description: "A comprehensive admin dashboard for e-commerce management with real-time analytics, inventory tracking, and order management capabilities.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-      technologies: ["ReactJS", "Chart.js", "REST APIs", "Bootstrap", "JavaScript ES6+"],
+      title: "Backoffice Management System",
+      category: "ERP Web Application",
+      description: "A modular ERP-style dashboard tailored for internal business operations, supporting dynamic client and employee management, financial reporting, and payroll automation.",
+      image: cgBackoffice,
+      technologies: [
+        "ReactJS",
+        "Redux Toolkit",
+        "React Hook Form",
+        "Axios",
+        "SCSS",
+        "JWT Auth",
+        "REST APIs"
+      ],
       features: [
-        "Real-time sales analytics",
-        "Inventory management system",
-        "Order tracking and fulfillment",
-        "Customer management",
-        "Interactive data visualizations",
-        "Export functionality"
+        "Client management module",
+        "Employee directory with roles & permissions",
+        "Multi-currency support",
+        "Project tracking dashboard",
+        "Day End Report generation",
+        "Salary generation & monthly payments",
+        "Tagging system for categorization",
+        "Interactive Kanban-style task board",
+        "Integrated calendar for scheduling"
       ],
       highlights: {
-        efficiency: "60% faster operations",
-        analytics: "Real-time insights",
-        integration: "Multi-platform sync"
+        automation: "Automated payroll and reporting system",
+        usability: "Modular and scalable architecture",
+        performance: "Optimized API interactions with Axios interceptors"
       },
-      status: "Development",
+      status: "Completed",
       demoLink: "#",
       codeLink: "#"
     }
+
   ];
 
   const getStatusColor = (status: string) => {
@@ -101,9 +114,8 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={project.title}
-              className={`lg:grid lg:grid-cols-2 lg:gap-12 items-center ${
-                index % 2 === 1 ? 'lg:grid-flow-col-reverse' : ''
-              }`}
+              className={`lg:grid lg:grid-cols-2 lg:gap-12 items-center ${index % 2 === 1 ? 'lg:grid-flow-col-reverse' : ''
+                }`}
             >
               {/* Project Image */}
               <div className="mb-8 lg:mb-0 animate-slide-up">

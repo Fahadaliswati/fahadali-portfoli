@@ -16,7 +16,7 @@ const Skills = () => {
     {
       title: "Styling & Design",
       icon: "🎨",
-      skills: ["Tailwind CSS", "Bootstrap", "Responsive Design", "Figma to HTML/CSS", "CSS Grid & Flexbox"],
+      skills: ["Tailwind CSS", "Bootstrap", "SCSS", "Responsive Design", "Figma to HTML/CSS", "CSS Grid & Flexbox"],
       color: "tech"
     },
     {
@@ -28,7 +28,7 @@ const Skills = () => {
     {
       title: "Databases",
       icon: "🗄️",
-      skills: ["MySQL", "MongoDB", "Firebase", "Local Storage", "Session Storage"],
+      skills: ["MySQL", "MongoDB", "Local Storage", "Session Storage"],
       color: "accent"
     },
     {

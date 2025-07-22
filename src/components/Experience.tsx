@@ -8,13 +8,18 @@ const Experience = () => {
       type: "Full-time",
       description: "Leading frontend development initiatives and transforming design concepts into responsive web applications.",
       achievements: [
-        "Converted 15+ Figma designs to pixel-perfect HTML/CSS with 100% accuracy",
-        "Integrated 10+ REST APIs using Axios with proper error handling and loading states",
-        "Implemented responsive design patterns reducing mobile bounce rate by 30%",
-        "Established Git workflow protocols improving team collaboration efficiency by 40%",
-        "Built reusable component library reducing development time by 25%",
-        "Collaborated with UI/UX designers to enhance user experience across 5+ projects"
+        "Transformed Figma designs into responsive and pixel-perfect web interfaces using HTML, CSS, SCSS, and Tailwind CSS.",
+        "Integrated RESTful APIs into dynamic frontend applications for ERP and Real Estate systems.",
+        "Developed and maintained a reusable component library to ensure consistency and efficiency across projects.",
+        "Implemented secure authentication and role-based access using JWT and protected routes.",
+        "Integrated Google Maps and Geofencing APIs for enhanced location-based features in real estate platforms.",
+        "Collaborated with backend teams using Postman to test and consume APIs effectively.",
+        "Managed global and local state using Redux Toolkit and Context API for scalable application architecture.",
+        "Enhanced form handling and validation using React Hook Form and custom validation logic.",
+        "Used GitHub for version control, code review, and collaboration in an Agile development environment.",
+        "Contributed to Agile practices by participating in sprint meetings, daily standups, and team collaboration."
       ],
+
       technologies: ["ReactJS", "JavaScript", "HTML5", "CSS3", "Figma", "Git", "REST APIs", "Responsive Design"]
     }
   ];
@@ -61,7 +66,7 @@ const Experience = () => {
             <div key={index} className="relative">
               {/* Timeline line */}
               <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-0.5 h-full bg-gradient-to-b from-primary to-accent"></div>
-              
+
               {/* Timeline dot */}
               <div className="absolute left-2 md:left-1/2 transform md:-translate-x-1/2 w-4 h-4 bg-primary rounded-full shadow-glow"></div>
 
@@ -83,7 +88,7 @@ const Experience = () => {
                 <div className="md:ml-8">
                   <div className="card-gradient rounded-2xl p-6 shadow-soft">
                     <p className="text-muted-foreground mb-6 leading-relaxed">{exp.description}</p>
-                    
+
                     <div className="mb-6">
                       <h4 className="text-lg font-semibold text-foreground mb-4">Key Achievements:</h4>
                       <ul className="space-y-2">

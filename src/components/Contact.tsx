@@ -218,8 +218,8 @@ const Contact = () => {
                       href={info.link}
                       className="flex items-center space-x-4 p-4 rounded-lg hover:bg-secondary transition-smooth group"
                     >
-                      <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary group-hover:shadow-glow transition-smooth">
-                        <span className="text-primary group-hover:text-primary-foreground group-hover:scale-110 transition-smooth">{info.icon}</span>
+                      <div className={`w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center ${info.hoverColor} group-hover:shadow-glow transition-smooth`}>
+                        <span className="text-primary group-hover:text-white group-hover:scale-110 transition-smooth">{info.icon}</span>
                       </div>
                       <div>
                         <p className="text-sm text-muted-foreground">{info.label}</p>

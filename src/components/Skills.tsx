@@ -3,7 +3,7 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: "💻",
-      skills: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "Python"],
+      skills: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3"],
       color: "primary"
     },
     {

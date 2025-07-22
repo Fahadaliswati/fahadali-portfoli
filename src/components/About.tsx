@@ -60,18 +60,18 @@ const About = () => {
             <div className="card-gradient rounded-2xl p-8 shadow-soft hover:shadow-hover transition-smooth">
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">1+</div>
+                  <div className="text-3xl font-bold text-primary mb-2">1.5+</div>
                   <div className="text-sm text-muted-foreground uppercase tracking-wide">Years Experience</div>
                 </div>
 
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-accent mb-2">10+</div>
-                  <div className="text-sm text-muted-foreground uppercase tracking-wide">Projects Completed</div>
+                  <div className="text-3xl font-bold text-accent mb-2">100%</div>
+                  <div className="text-sm text-muted-foreground uppercase tracking-wide">API Integration Efficiency</div>
                 </div>
 
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-tech mb-2">5+</div>
-                  <div className="text-sm text-muted-foreground uppercase tracking-wide">Technologies</div>
+                  <div className="text-3xl font-bold text-tech mb-2">Advanced</div>
+                  <div className="text-sm text-muted-foreground uppercase tracking-wide">State Management </div>
                 </div>
 
                 <div className="text-center">

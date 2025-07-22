@@ -190,12 +190,12 @@ const Projects = () => {
 
                 {/* Action Buttons */}
                 <div className="flex space-x-4">
-                  <button className="px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg shadow-soft hover:shadow-hover transition-smooth hover:scale-105">
+                  {/* <button className="px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg shadow-soft hover:shadow-hover transition-smooth hover:scale-105">
                     View Demo
                   </button>
                   <button className="px-6 py-3 border-2 border-primary text-primary font-medium rounded-lg transition-smooth hover:bg-primary hover:text-primary-foreground">
                     View Code
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

@@ -41,7 +41,8 @@ const Contact = () => {
       ),
       label: 'Email',
       value: 'fahadali.hk0009@gmail.com',
-      link: 'mailto:fahadali.hk@gmail.com'
+      link: 'mailto:fahadali.hk@gmail.com',
+      hoverColor: 'group-hover:bg-red-500'
     },
     {
       icon: (
@@ -51,7 +52,8 @@ const Contact = () => {
       ),
       label: 'LinkedIn',
       value: 'Connect with me',
-      link: 'https://www.linkedin.com/in/fahad-alikhan/'
+      link: 'https://www.linkedin.com/in/fahad-alikhan/',
+      hoverColor: 'group-hover:bg-blue-600'
     },
     {
       icon: (
@@ -61,7 +63,8 @@ const Contact = () => {
       ),
       label: 'GitHub',
       value: 'View my code',
-      link: 'https://github.com/Fahadaliswati'
+      link: 'https://github.com/Fahadaliswati',
+      hoverColor: 'group-hover:bg-gray-900'
     },
     {
       icon: (
@@ -71,7 +74,8 @@ const Contact = () => {
       ),
       label: 'Phone / WhatsApp',
       value: '+92 311 8668902',
-      link: 'https://wa.me/923118668902'
+      link: 'https://wa.me/923118668902',
+      hoverColor: 'group-hover:bg-green-500'
     }
   ];
 

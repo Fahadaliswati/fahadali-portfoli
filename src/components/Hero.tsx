@@ -47,7 +47,7 @@ const Hero = () => {
               onClick={() => document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg transition-smooth hover:bg-white hover:text-primary hover:scale-105"
             >
-              View My Work
+              <div className="ml-3">View My Work</div>
             </button>
           </div>
         </div>

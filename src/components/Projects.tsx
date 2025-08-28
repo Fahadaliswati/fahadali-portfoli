@@ -20,7 +20,7 @@ const Projects = () => {
         security: "Bank-level security",
         users: "500+ active users"
       },
-      status: "Production",
+      // status: "Production",
       demoLink: "#",
       codeLink: "#"
     },
@@ -43,7 +43,7 @@ const Projects = () => {
         responsive: "100% mobile friendly",
         animations: "Smooth transitions"
       },
-      status: "Live",
+      // status: "Live",
       demoLink: "#",
       codeLink: "#"
     },
@@ -77,7 +77,7 @@ const Projects = () => {
         usability: "Modular and scalable architecture",
         performance: "Optimized API interactions with Axios interceptors"
       },
-      status: "Completed",
+      // status: "Completed",
       demoLink: "#",
       codeLink: "#"
     }
@@ -127,9 +127,9 @@ const Projects = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                   <div className="absolute top-4 right-4">
-                    <span className={`px-3 py-1 rounded-full text-sm font-medium ${getStatusColor(project.status)}`}>
+                    {/* <span className={`px-3 py-1 rounded-full text-sm font-medium ${getStatusColor(project.status)}`}>
                       {project.status}
-                    </span>
+                    </span> */}
                   </div>
                 </div>
               </div>
